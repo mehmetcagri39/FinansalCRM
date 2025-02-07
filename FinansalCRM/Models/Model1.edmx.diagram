@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="de4fa9a9f99c442a93d8a5c18267000c" Name="Diagram1">
+        <EntityTypeShape EntityType="FinansalCRMDbModel.BankProcesses" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinansalCRMDbModel.Banks" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinansalCRMDbModel.Bills" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinansalCRMDbModel.Categories" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinansalCRMDbModel.Spendings" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinansalCRMDbModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinansalCRMDbModel.Users" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="FinansalCRMDbModel.FK_BankProcesses_Banks" ManuallyRouted="false" />
+        <AssociationConnector Association="FinansalCRMDbModel.FK_Spendings_Categories" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
